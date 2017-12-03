@@ -1,0 +1,28 @@
+/* imports */
+@import './imports/variables';
+@import './imports/fonts';
+@import './imports/global';
+@import '../../node_modules/leaflet/dist/leaflet';
+
+/* components */
+/*@import '../components/user-table/user-table';*/
+
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
